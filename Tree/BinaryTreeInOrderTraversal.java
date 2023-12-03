@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.Stack;
 
 class TreeNode {
-    int value;
+    int val;
     TreeNode left, right;
 
     public TreeNode(int value) {
-        this.value = value;
+        this.val = value;
         this.left = this.right = null;
     }
 }
@@ -28,7 +28,7 @@ public class BinaryTreeInOrderTraversal {
 
             // Visit the current node
             root = stack.pop();
-            result.add(root.value);
+            result.add(root.val);
 
             // Move to the right subtree
             root = root.right;

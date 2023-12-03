@@ -9,6 +9,8 @@ import java.util.Queue;
       int val;
       TreeNode left;
       TreeNode right;
+    public int data;
+    
       TreeNode() {}
       TreeNode(int val) { this.val = val; }
       TreeNode(int val, TreeNode left, TreeNode right) {
